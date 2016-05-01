@@ -1,0 +1,11 @@
+setup.py
+TURBO_I2C.egg-info/PKG-INFO
+TURBO_I2C.egg-info/SOURCES.txt
+TURBO_I2C.egg-info/dependency_links.txt
+TURBO_I2C.egg-info/requires.txt
+TURBO_I2C.egg-info/top_level.txt
+Turbo_I2C/BMP180.py
+Turbo_I2C/BMP280.py
+Turbo_I2C/MPU6050.py
+Turbo_I2C/SHT21.py
+Turbo_I2C/__init__.py
