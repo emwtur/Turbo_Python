@@ -1,3 +1,12 @@
+Turbo Python:
+Python library to read Humidity, Air pressure, Humidity, 
+Location(position and acceleration) and Temperature sensors on a Raspberry Pi.
+
+Inspired from the Adafruit libraries notable changes;
+one driver to handle all sensors I've encountered 
+
+
+8< ----------------------------------------------------------------------------
 Adafruit Python DHT Sensor Library
 ==================================
 
