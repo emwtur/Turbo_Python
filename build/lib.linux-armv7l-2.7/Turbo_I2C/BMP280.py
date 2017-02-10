@@ -199,8 +199,7 @@ class BMP280(object):
 			return h
 		else:
 			return null
-	def read_ChipID(self):
-		return self.ChipID;
+
 	def read_altitude(self, sealevel_pa=101325.0):
 		"""Calculates the altitude in meters."""
 		# Calculation taken straight from section 3.6 of the datasheet.

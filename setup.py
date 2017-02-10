@@ -11,7 +11,7 @@ if sys.platform != 'win32' and sys.platform != 'darwin':
     requires.append('spidev')
 
 setup(name              = 'TURBO_I2C',
-      version           = '0.1.3',
+      version           = '0.1.4',
       author            = 'Per-Eric Larsson',
       author_email      = 'tdicola@adafruit.com',
       description       = '.',
