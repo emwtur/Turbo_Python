@@ -22,7 +22,7 @@ import math
 import time
 
 import Adafruit_GPIO.SPI as SPI
-import Adafruit_SSD1306
+import Turbo_I2C.SSD1306
 
 from PIL import Image
 from PIL import ImageFont
@@ -44,7 +44,7 @@ SPI_DEVICE = 0
 # SPI_DEVICE = 0
 
 # 128x32 display with hardware I2C:
-disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)
+disp = Turbo_I2C.SSD1306.SSD1306_128_32(rst=RST)
 
 # 128x64 display with hardware I2C:
 # disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST)

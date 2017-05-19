@@ -1,9 +1,8 @@
 #!/usr/bin/python
-
+import Turbo_I2C.SHT21 as SHT21
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
-import Turbo_I2C.SHT21 as SHT21
 
 sensor = SHT21.SHT21()
 
