@@ -2,8 +2,11 @@ Turbo Python:
 Python library to read Humidity, Air pressure, Humidity, 
 Location(position and acceleration) and Temperature sensors on a Raspberry Pi.
 
+2017-05-19 - added oled screen SSD1603
+
 Inspired from the Adafruit libraries notable changes;
 one driver to handle all sensors I've encountered 
+
 
 
 8< ----------------------------------------------------------------------------
