@@ -11,12 +11,12 @@ if sys.platform != 'win32' and sys.platform != 'darwin':
     requires.append('spidev')
 
 setup(name              = 'TURBO_I2C',
-      version           = '0.1.4',
+      version           = '0.1.6',
       author            = 'Per-Eric Larsson',
-      author_email      = 'tdicola@adafruit.com',
+      author_email      = 'per-eric.larsson@densomlever.se',
       description       = '.',
       license           = 'MIT',
-      url               = 'https://github.com/adafruit/Adafruit_Python_GPIO/',
+      url               = 'https://github.com/emwtur/Turbo_Python_I2C/',
       install_requires  = requires,
       test_suite        = 'tests',
       packages          = find_packages())
